@@ -18,10 +18,8 @@ You will also need:
   - The [Vue CLI](https://cli.vuejs.org/) installed
 
 ## Development
+To run input to different terminals:
 
-To run type in different terminals:
-
-```sh
 # Start the Express application with reloading via nodemon
 npm run dev:server
 
