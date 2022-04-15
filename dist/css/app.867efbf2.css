@@ -1,0 +1,1 @@
+.bounce-transition-enter-active,.bounce-transition-leave,.bounce-transition-leave-to{transition:transform 3s cubic-bezier(.3 .7,1)}.bounce-transition-enter,.bounce-transition-leave-to{transform:translateY(100px)}
