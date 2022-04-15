@@ -16,9 +16,11 @@ npm ci --prefix client/
 
 You will also need:
   - The [Vue CLI](https://cli.vuejs.org/) installed
+```
 
-## Development
-To run input to different terminals:
+## Start
+```sh
+# Run in different terminals:
 
 # Start the Express application with reloading via nodemon
 npm run dev:server
