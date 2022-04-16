@@ -63,11 +63,10 @@ export default {
         this.res = 'Higher downpayment required'
       } else {
         let monthInt = this.interest / 1200
+        let loanBody = this.loan - this.down
         let result =
-          this.loan / this.term +
-          ((this.loan - this.downPay) *
-            monthInt *
-            ((1 + monthInt) ^ this.term)) /
+          loanBody / this.term +
+          (loanBody * monthInt * ((1 + monthInt) ^ this.term)) /
             (((1 + monthInt) ^ this.term) - 1)
         this.res = 'Your monthly payment would be ' + Math.ceil(result) + ' $'
       }
